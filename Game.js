@@ -53,9 +53,9 @@ const determineWinner = (userChoice, computerChoice) => {
 };
 
 function playGame(){
-let userChoice = getUserChoice('rock');
-let computerChoice = getComputerChoice();
-console.log(`The user picked ${userChoice} and the computer picked ${computerChoice}!`);
-console.log(determineWinner(userChoice, computerChoice));
+  let userChoice = getUserChoice('rock');
+  let computerChoice = getComputerChoice();
+  console.log(`The user picked ${userChoice} and the computer picked ${computerChoice}!`);
+  console.log(determineWinner(userChoice, computerChoice));
 };
 playGame();
